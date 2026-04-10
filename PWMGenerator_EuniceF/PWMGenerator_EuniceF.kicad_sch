@@ -4156,6 +4156,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 88.9) (xy 110.49 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c95eae1-88d9-405c-9027-658122aab82a")
+	)
+	(wire
+		(pts
 			(xy 224.79 162.56) (xy 215.9 162.56)
 		)
 		(stroke
@@ -4193,6 +4203,16 @@
 			(type default)
 		)
 		(uuid "49f7b517-260b-46bf-9fe8-2a15c2216310")
+	)
+	(wire
+		(pts
+			(xy 123.19 81.28) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b541a28-7d5e-4ed8-9264-1d83650f2f4e")
 	)
 	(wire
 		(pts
@@ -4263,6 +4283,16 @@
 			(type default)
 		)
 		(uuid "5520ed5f-e49b-4729-b303-d48e8550bc33")
+	)
+	(wire
+		(pts
+			(xy 128.27 81.28) (xy 128.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576ebf1c-c296-4231-9f90-fbdac357ea8c")
 	)
 	(wire
 		(pts
@@ -4423,16 +4453,6 @@
 			(type default)
 		)
 		(uuid "762e9970-059e-4f54-a7c4-4771932ebd9c")
-	)
-	(wire
-		(pts
-			(xy 116.84 88.9) (xy 110.49 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78ed1b7a-bb13-47e8-98b6-2b574dc8e6f4")
 	)
 	(wire
 		(pts
@@ -4716,6 +4736,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 81.28) (xy 111.76 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae77f94-4e2b-431a-8320-d33028c11926")
+	)
+	(wire
+		(pts
 			(xy 184.15 101.6) (xy 173.99 101.6)
 		)
 		(stroke
@@ -4723,16 +4753,6 @@
 			(type default)
 		)
 		(uuid "b3c93e0a-fa4e-4a84-a3e2-e2fd7f3df4d7")
-	)
-	(wire
-		(pts
-			(xy 128.27 88.9) (xy 124.46 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4cd1be6-132d-4b62-b073-bbf995089959")
 	)
 	(wire
 		(pts
@@ -4806,16 +4826,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 88.9) (xy 128.27 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0ea23b6-5d6d-4de9-8c44-b5da95e33348")
-	)
-	(wire
-		(pts
 			(xy 250.19 69.85) (xy 245.11 69.85)
 		)
 		(stroke
@@ -4843,6 +4853,16 @@
 			(type default)
 		)
 		(uuid "c433ec3e-cf2f-4ec4-9666-086d5ed44858")
+	)
+	(wire
+		(pts
+			(xy 111.76 81.28) (xy 115.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a737f5-50fb-4e88-b6da-31f6d86e080a")
 	)
 	(wire
 		(pts
@@ -5819,7 +5839,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "19fbe991-4afe-4b76-b7ac-a873bc3ec369")
+		(uuid "19fbe991-4afe-4b76-b7ac-a873bc3ec36a")
 		(property "Reference" "U2"
 			(at 198.12 167.64 0)
 			(show_name no)
@@ -5874,46 +5894,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "c969c73d-fd02-42a6-968c-46c705593a04")
+			(uuid "c969c73d-fd02-42a6-968c-46c705593a05")
 		)
 		(pin "6"
-			(uuid "db4421ab-978c-4238-84cc-ea2471005f0a")
+			(uuid "db4421ab-978c-4238-84cc-ea2471005f0b")
 		)
 		(pin "10"
-			(uuid "46d8f18e-a2be-40f3-8245-4155177fbd07")
+			(uuid "46d8f18e-a2be-40f3-8245-4155177fbd08")
 		)
 		(pin "11"
-			(uuid "bbcda4de-c512-4b07-948e-07ebfb4d15a5")
+			(uuid "bbcda4de-c512-4b07-948e-07ebfb4d15a6")
 		)
 		(pin "13"
-			(uuid "887d4ddf-e491-440c-b9ea-04b8c4438ab7")
+			(uuid "887d4ddf-e491-440c-b9ea-04b8c4438ab8")
 		)
 		(pin "2"
-			(uuid "8667fc15-ad62-4493-8fb5-3d75e81408c1")
+			(uuid "8667fc15-ad62-4493-8fb5-3d75e81408c2")
 		)
 		(pin "4"
-			(uuid "35e4825a-612d-4d1c-a47d-5c9107db2756")
+			(uuid "35e4825a-612d-4d1c-a47d-5c9107db2757")
 		)
 		(pin "3"
-			(uuid "c1a97508-7769-45d2-bb10-f7eb693816f6")
+			(uuid "c1a97508-7769-45d2-bb10-f7eb693816f7")
 		)
 		(pin "8"
-			(uuid "112462c9-f66e-4d74-8f41-1e95dbdbd4ef")
+			(uuid "112462c9-f66e-4d74-8f41-1e95dbdbd4f0")
 		)
 		(pin "1"
-			(uuid "c48a6fcb-589a-4d3b-bc97-c835e9a18ac5")
+			(uuid "c48a6fcb-589a-4d3b-bc97-c835e9a18ac6")
 		)
 		(pin "7"
-			(uuid "1c59cafe-83b5-43e5-95a7-125eb777392c")
+			(uuid "1c59cafe-83b5-43e5-95a7-125eb777392d")
 		)
 		(pin "14"
-			(uuid "91984013-53f0-4ba8-acba-580d92431bd6")
+			(uuid "91984013-53f0-4ba8-acba-580d92431bd7")
 		)
 		(pin "9"
-			(uuid "df24146a-3065-4175-9bae-bbf097132e1f")
+			(uuid "df24146a-3065-4175-9bae-bbf097132e20")
 		)
 		(pin "12"
-			(uuid "d4f53eff-c70f-4248-be75-87b008dc0172")
+			(uuid "d4f53eff-c70f-4248-be75-87b008dc0173")
 		)
 		(instances
 			(project "PWMGenerator_EuniceF"
@@ -5935,7 +5955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "19fbe991-4afe-4b76-b7ac-a873bc3ec369")
+		(uuid "19fbe991-4afe-4b76-b7ac-a873bc3ec36b")
 		(property "Reference" "U2"
 			(at 229.87 167.64 0)
 			(show_name no)
@@ -5990,46 +6010,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "c969c73d-fd02-42a6-968c-46c705593a04")
+			(uuid "c969c73d-fd02-42a6-968c-46c705593a06")
 		)
 		(pin "6"
-			(uuid "db4421ab-978c-4238-84cc-ea2471005f0a")
+			(uuid "db4421ab-978c-4238-84cc-ea2471005f0c")
 		)
 		(pin "10"
-			(uuid "46d8f18e-a2be-40f3-8245-4155177fbd07")
+			(uuid "46d8f18e-a2be-40f3-8245-4155177fbd09")
 		)
 		(pin "11"
-			(uuid "bbcda4de-c512-4b07-948e-07ebfb4d15a5")
+			(uuid "bbcda4de-c512-4b07-948e-07ebfb4d15a7")
 		)
 		(pin "13"
-			(uuid "887d4ddf-e491-440c-b9ea-04b8c4438ab7")
+			(uuid "887d4ddf-e491-440c-b9ea-04b8c4438ab9")
 		)
 		(pin "2"
-			(uuid "8667fc15-ad62-4493-8fb5-3d75e81408c1")
+			(uuid "8667fc15-ad62-4493-8fb5-3d75e81408c3")
 		)
 		(pin "4"
-			(uuid "35e4825a-612d-4d1c-a47d-5c9107db2756")
+			(uuid "35e4825a-612d-4d1c-a47d-5c9107db2758")
 		)
 		(pin "3"
-			(uuid "c1a97508-7769-45d2-bb10-f7eb693816f6")
+			(uuid "c1a97508-7769-45d2-bb10-f7eb693816f8")
 		)
 		(pin "8"
-			(uuid "112462c9-f66e-4d74-8f41-1e95dbdbd4ef")
+			(uuid "112462c9-f66e-4d74-8f41-1e95dbdbd4f1")
 		)
 		(pin "1"
-			(uuid "c48a6fcb-589a-4d3b-bc97-c835e9a18ac5")
+			(uuid "c48a6fcb-589a-4d3b-bc97-c835e9a18ac7")
 		)
 		(pin "7"
-			(uuid "1c59cafe-83b5-43e5-95a7-125eb777392c")
+			(uuid "1c59cafe-83b5-43e5-95a7-125eb777392e")
 		)
 		(pin "14"
-			(uuid "91984013-53f0-4ba8-acba-580d92431bd6")
+			(uuid "91984013-53f0-4ba8-acba-580d92431bd8")
 		)
 		(pin "9"
-			(uuid "df24146a-3065-4175-9bae-bbf097132e1f")
+			(uuid "df24146a-3065-4175-9bae-bbf097132e21")
 		)
 		(pin "12"
-			(uuid "d4f53eff-c70f-4248-be75-87b008dc0172")
+			(uuid "d4f53eff-c70f-4248-be75-87b008dc0174")
 		)
 		(instances
 			(project "PWMGenerator_EuniceF"
@@ -6051,7 +6071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "19fbe991-4afe-4b76-b7ac-a873bc3ec369")
+		(uuid "19fbe991-4afe-4b76-b7ac-a873bc3ec36c")
 		(property "Reference" "U2"
 			(at 251.46 167.64 0)
 			(show_name no)
@@ -6106,46 +6126,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "c969c73d-fd02-42a6-968c-46c705593a04")
+			(uuid "c969c73d-fd02-42a6-968c-46c705593a07")
 		)
 		(pin "6"
-			(uuid "db4421ab-978c-4238-84cc-ea2471005f0a")
+			(uuid "db4421ab-978c-4238-84cc-ea2471005f0d")
 		)
 		(pin "10"
-			(uuid "46d8f18e-a2be-40f3-8245-4155177fbd07")
+			(uuid "46d8f18e-a2be-40f3-8245-4155177fbd0a")
 		)
 		(pin "11"
-			(uuid "bbcda4de-c512-4b07-948e-07ebfb4d15a5")
+			(uuid "bbcda4de-c512-4b07-948e-07ebfb4d15a8")
 		)
 		(pin "13"
-			(uuid "887d4ddf-e491-440c-b9ea-04b8c4438ab7")
+			(uuid "887d4ddf-e491-440c-b9ea-04b8c4438aba")
 		)
 		(pin "2"
-			(uuid "8667fc15-ad62-4493-8fb5-3d75e81408c1")
+			(uuid "8667fc15-ad62-4493-8fb5-3d75e81408c4")
 		)
 		(pin "4"
-			(uuid "35e4825a-612d-4d1c-a47d-5c9107db2756")
+			(uuid "35e4825a-612d-4d1c-a47d-5c9107db2759")
 		)
 		(pin "3"
-			(uuid "c1a97508-7769-45d2-bb10-f7eb693816f6")
+			(uuid "c1a97508-7769-45d2-bb10-f7eb693816f9")
 		)
 		(pin "8"
-			(uuid "112462c9-f66e-4d74-8f41-1e95dbdbd4ef")
+			(uuid "112462c9-f66e-4d74-8f41-1e95dbdbd4f2")
 		)
 		(pin "1"
-			(uuid "c48a6fcb-589a-4d3b-bc97-c835e9a18ac5")
+			(uuid "c48a6fcb-589a-4d3b-bc97-c835e9a18ac8")
 		)
 		(pin "7"
-			(uuid "1c59cafe-83b5-43e5-95a7-125eb777392c")
+			(uuid "1c59cafe-83b5-43e5-95a7-125eb777392f")
 		)
 		(pin "14"
-			(uuid "91984013-53f0-4ba8-acba-580d92431bd6")
+			(uuid "91984013-53f0-4ba8-acba-580d92431bd9")
 		)
 		(pin "9"
-			(uuid "df24146a-3065-4175-9bae-bbf097132e1f")
+			(uuid "df24146a-3065-4175-9bae-bbf097132e22")
 		)
 		(pin "12"
-			(uuid "d4f53eff-c70f-4248-be75-87b008dc0172")
+			(uuid "d4f53eff-c70f-4248-be75-87b008dc0175")
 		)
 		(instances
 			(project "PWMGenerator_EuniceF"
@@ -6167,7 +6187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "19fbe991-4afe-4b76-b7ac-a873bc3ec369")
+		(uuid "19fbe991-4afe-4b76-b7ac-a873bc3ec36d")
 		(property "Reference" "U2"
 			(at 261.62 87.6299 0)
 			(show_name no)
@@ -6224,46 +6244,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "c969c73d-fd02-42a6-968c-46c705593a04")
+			(uuid "c969c73d-fd02-42a6-968c-46c705593a08")
 		)
 		(pin "6"
-			(uuid "db4421ab-978c-4238-84cc-ea2471005f0a")
+			(uuid "db4421ab-978c-4238-84cc-ea2471005f0e")
 		)
 		(pin "10"
-			(uuid "46d8f18e-a2be-40f3-8245-4155177fbd07")
+			(uuid "46d8f18e-a2be-40f3-8245-4155177fbd0b")
 		)
 		(pin "11"
-			(uuid "bbcda4de-c512-4b07-948e-07ebfb4d15a5")
+			(uuid "bbcda4de-c512-4b07-948e-07ebfb4d15a9")
 		)
 		(pin "13"
-			(uuid "887d4ddf-e491-440c-b9ea-04b8c4438ab7")
+			(uuid "887d4ddf-e491-440c-b9ea-04b8c4438abb")
 		)
 		(pin "2"
-			(uuid "8667fc15-ad62-4493-8fb5-3d75e81408c1")
+			(uuid "8667fc15-ad62-4493-8fb5-3d75e81408c5")
 		)
 		(pin "4"
-			(uuid "35e4825a-612d-4d1c-a47d-5c9107db2756")
+			(uuid "35e4825a-612d-4d1c-a47d-5c9107db275a")
 		)
 		(pin "3"
-			(uuid "c1a97508-7769-45d2-bb10-f7eb693816f6")
+			(uuid "c1a97508-7769-45d2-bb10-f7eb693816fa")
 		)
 		(pin "8"
-			(uuid "112462c9-f66e-4d74-8f41-1e95dbdbd4ef")
+			(uuid "112462c9-f66e-4d74-8f41-1e95dbdbd4f3")
 		)
 		(pin "1"
-			(uuid "c48a6fcb-589a-4d3b-bc97-c835e9a18ac5")
+			(uuid "c48a6fcb-589a-4d3b-bc97-c835e9a18ac9")
 		)
 		(pin "7"
-			(uuid "1c59cafe-83b5-43e5-95a7-125eb777392c")
+			(uuid "1c59cafe-83b5-43e5-95a7-125eb7773930")
 		)
 		(pin "14"
-			(uuid "91984013-53f0-4ba8-acba-580d92431bd6")
+			(uuid "91984013-53f0-4ba8-acba-580d92431bda")
 		)
 		(pin "9"
-			(uuid "df24146a-3065-4175-9bae-bbf097132e1f")
+			(uuid "df24146a-3065-4175-9bae-bbf097132e23")
 		)
 		(pin "12"
-			(uuid "d4f53eff-c70f-4248-be75-87b008dc0172")
+			(uuid "d4f53eff-c70f-4248-be75-87b008dc0176")
 		)
 		(instances
 			(project "PWMGenerator_EuniceF"
@@ -6305,7 +6325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_GREEN"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
 			(at 184.15 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6359,87 +6379,6 @@
 			(project "PWMGenerator_EuniceF"
 				(path "/c15f9de7-7ca4-429e-8134-93b46f4a3e8c"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 120.65 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b6600d9-bca3-4edf-b315-ba2aed956be8")
-		(property "Reference" "F1"
-			(at 120.65 82.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Polyfuse"
-			(at 120.65 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 120.65 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "947835c6-7bac-45ad-a0a5-8ff7c165daf4")
-		)
-		(pin "1"
-			(uuid "e11904ff-da9b-419a-8407-e59f70430142")
-		)
-		(instances
-			(project "PWMGenerator_EuniceF"
-				(path "/c15f9de7-7ca4-429e-8134-93b46f4a3e8c"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -8564,6 +8503,87 @@
 			(project "PWMGenerator_EuniceF"
 				(path "/c15f9de7-7ca4-429e-8134-93b46f4a3e8c"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 119.38 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bff6ac04-04fb-47e2-a2e6-bf933106c07d")
+		(property "Reference" "F1"
+			(at 119.38 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NANOSMDC016F-2"
+			(at 119.38 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:RESC3115X65N"
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 119.38 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "759df181-0b95-4374-b942-18f12b3a6db6")
+		)
+		(pin "2"
+			(uuid "1a7b451d-ba08-4094-8f54-0e08ec58a0c6")
+		)
+		(instances
+			(project "PWMGenerator_EuniceF"
+				(path "/c15f9de7-7ca4-429e-8134-93b46f4a3e8c"
+					(reference "F1")
 					(unit 1)
 				)
 			)
