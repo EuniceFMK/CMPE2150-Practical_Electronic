@@ -3544,12 +3544,6 @@
 		(uuid "503cee10-8380-4756-abea-f1adbe6a28fe")
 	)
 	(junction
-		(at 161.29 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "593c6db8-c5de-46e6-aff1-a9313a9b716f")
-	)
-	(junction
 		(at 215.9 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3656,6 +3650,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c91d1abf-5ae6-4769-934a-8318d297e62b")
+	)
+	(junction
+		(at 161.29 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd33e479-fa50-43da-9e09-ffddac97fba6")
 	)
 	(junction
 		(at 224.79 101.6)
@@ -3771,7 +3771,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 118.11) (xy 161.29 121.92)
+			(xy 161.29 116.84) (xy 161.29 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3828,16 +3828,6 @@
 			(type default)
 		)
 		(uuid "0aefacf7-1bb2-4bc0-9de3-bd7b48796b31")
-	)
-	(wire
-		(pts
-			(xy 167.64 114.3) (xy 167.64 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c68e451-4749-4620-b103-4cb3f9090497")
 	)
 	(wire
 		(pts
@@ -3951,16 +3941,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 118.11) (xy 161.29 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f5ae008-31e0-4895-beda-4e1e65a48f6d")
-	)
-	(wire
-		(pts
 			(xy 205.74 73.66) (xy 240.03 73.66)
 		)
 		(stroke
@@ -3978,6 +3958,16 @@
 			(type default)
 		)
 		(uuid "2250db80-9d00-4e02-80de-d1559329f5c0")
+	)
+	(wire
+		(pts
+			(xy 156.21 118.11) (xy 156.21 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22caa6b2-09a6-4f87-bb79-73dc7d78306f")
 	)
 	(wire
 		(pts
@@ -4051,7 +4041,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 109.22) (xy 161.29 118.11)
+			(xy 161.29 109.22) (xy 161.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4448,6 +4438,16 @@
 			(type default)
 		)
 		(uuid "746f26e2-6376-4d9d-80e5-d69c33cf786f")
+	)
+	(wire
+		(pts
+			(xy 156.21 116.84) (xy 161.29 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cb40ab-3a2c-4898-9a93-c4367a90a407")
 	)
 	(wire
 		(pts
@@ -7274,6 +7274,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 156.21 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ed39cb0-d56e-4338-9c4e-c7f53a3720e1")
+		(property "Reference" "#PWR04"
+			(at 156.21 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d9bdec7-73c6-43ba-a166-d84e3ffbafd5")
+		)
+		(instances
+			(project "PWMGenerator_EuniceF"
+				(path "/c15f9de7-7ca4-429e-8134-93b46f4a3e8c"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4005")
 		(at 144.78 101.6 180)
 		(unit 1)
@@ -7690,84 +7768,6 @@
 			(project "PWMGenerator_EuniceF"
 				(path "/c15f9de7-7ca4-429e-8134-93b46f4a3e8c"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 167.64 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7806cfec-1e1d-49c5-b084-afa50a0f82e1")
-		(property "Reference" "#FLG06"
-			(at 167.64 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 167.64 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 167.64 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43ef53ab-7311-4216-b4c8-73f57ae2cd21")
-		)
-		(instances
-			(project "PWMGenerator_EuniceF"
-				(path "/c15f9de7-7ca4-429e-8134-93b46f4a3e8c"
-					(reference "#FLG06")
 					(unit 1)
 				)
 			)
